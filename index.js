@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model("User", userSchema);
 
 app.get("/", async (req, res) => {
-  res.status(200).json({ message: "Welcome to Pal's CRUD API" });
+  res.status(200).json({ message: "Welcome to Pal's CRUD API !" , version: "1.0.0", guide: "https://github.com/PalDPathak404/crud-hw-mongoose" });
 });
 
 app.get("/allusers", async (req, res) => {
