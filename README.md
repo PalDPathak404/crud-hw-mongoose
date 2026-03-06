@@ -2,6 +2,10 @@
 
 A RESTful API for managing user data built with Express.js and MongoDB using Mongoose.
 
+## Live Deployment
+
+The API is deployed and accessible at: https://crud-hw-mongoose.onrender.com/
+
 ## Overview
 
 This is a professional-grade CRUD (Create, Read, Update, Delete) API that allows users to perform all basic database operations on user records. The API is built using Node.js, Express, and MongoDB.
