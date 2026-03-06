@@ -28,6 +28,10 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", userSchema);
 
+app.get("/", async (req, res) => {
+  res.status(200).json({ message: "Welcome to Pal's CRUD API" });
+});
+
 app.get("/allusers", async (req, res) => {
   try {
     const data = await User.find({});
