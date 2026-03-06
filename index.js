@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 mongoose
-  .connect("")
+  .connect("mongodb+srv://pal_pathak_db:Sweethome34*@cluster0.r0fn0ts.mongodb.net/?appName=Cluster0")
   .then(() => console.log("MongoDb Connected Successfully"))
   .catch((error) => console.log("MongoDb connection Failed", error));
 
